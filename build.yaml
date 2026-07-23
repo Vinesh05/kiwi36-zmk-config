@@ -37,9 +37,9 @@
 #    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 ---
 include:
-  - board: nice_nano//zmk
+  - board: nice_nano_v2
     shield: kiwi36_left
-  - board: nice_nano//zmk
+  - board: nice_nano_v2
     shield: kiwi36_right
-  - board: nice_nano//zmk
+  - board: nice_nano_v2
     shield: settings_reset
