@@ -132,7 +132,7 @@
 &hm ESC Q   &kp W       &kp E        &kp R         &kp T     &kp Y      &kp U         &kp I        &kp O    &kp P
 &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G     &kp H      &hm RSHIFT J  &hm RCTRL K  &kp L    &kp SEMI
 &kp Z       &kp X       &kp C        &kp V         &kp B     &kp N      &kp M         &kp COMMA    &kp DOT  &kp FSLH
-                        &kp LCTRL    &mo 1         &kp BSPC  &kp SPACE  &mo 2         &kp RALT
+                        &kp LCTRL    &mo 2         &kp BSPC  &kp SPACE  &mo 1         &kp RALT
             >;
         };
 
@@ -153,7 +153,7 @@
 &td1     &td2   &td3      &td4       &td5      &td6       &td7       &td8      &td9      &td10
 &kp TAB  &none  &none     &kp PSCRN  &kp CAPS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &td11
 &kp DEL  &none  &none     &none      &none     &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &td12
-                &kp LGUI  &mo 1      &kp RET   &kp RET    &mo 2      &kp RALT
+                &kp LGUI  &mo 2      &kp RET   &kp RET    &mo 1      &kp RALT
             >;
         };
 
@@ -174,7 +174,7 @@
 &soft_off       &none         &none         &ext_power EP_ON  &ext_power EP_OFF  &none     &none     &kp UP    &none      &none
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &none              &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &none
 &studio_unlock  &none         &none         &none             &none              &none     &none     &none     &kp END    &none
-                              &kp LGUI      &mo 1             &kp RET            &kp RET   &mo 2     &kp RALT
+                              &kp LGUI      &mo 2             &kp RET            &kp RET   &mo 1     &kp RALT
             >;
         };
 
