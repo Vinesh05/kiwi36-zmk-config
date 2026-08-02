@@ -7,7 +7,7 @@
 #define UPPER 2
 
 / {
-    behaviours {
+    behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -108,9 +108,6 @@
         };
     };
 
-    behaviors {
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -178,5 +175,6 @@
         };
 
         extra1 { status = "reserved"; };
+        extra2 { status = "reserved"; };
     };
 };
