@@ -11,12 +11,12 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <100>;
         };
 
         td1: tap_dance_1 {
@@ -147,7 +147,7 @@
 
             bindings = <
 &td1     &td2      &kp UP_ARROW  &td4             &studio_unlock  &bt BT_SEL 0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &bt BT_SEL 3
-&kp TAB  &kp LEFT  &kp DOWN      &kp RIGHT        &kp CAPS        &bt BT_SEL 1  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &bt BT_SEL 4
+&kp TAB  &kp LEFT  &kp DOWN      &kp RIGHT        &kp CAPS        &bt BT_SEL 1  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &bt BT_CLR
 &kp DEL  &none     &kp DEL       &kp PRINTSCREEN  &none           &bt BT_SEL 2  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0
                    &kp ESC       &kp BACKSPACE    &mo 1           &mo 2         &kp SPACE        &kp ENTER
             >;
